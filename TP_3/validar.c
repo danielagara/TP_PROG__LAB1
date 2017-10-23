@@ -393,11 +393,14 @@ int val_getDescripcion(char* destino, char* mensaje,char* mensajeError,int inten
 }
 
 
-/** \brief
+/** \brief val_getLink pide al usuario un dato de tipo string y valida su contenido
  *
- * \param
- * \param
- * \return
+ * \param destino donde se guargara el dato pedido
+ * \param mensaje el mensaje a imprimirle al usuario para que sepa que ingresar
+ * \param mensajeError el mensaje a imprimmirle al usuario en caso de error
+ * \param intentos la cantidad de veces que el usuario puede volver a reingresar el dato en caso de equivocarse
+ * \param limite la cantidad maxima de caracteres de destino
+ * \return -1 si hubo algun error, 0 si no hubo errores
  *
  */
 

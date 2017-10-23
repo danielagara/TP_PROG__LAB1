@@ -10,14 +10,14 @@
 
 1508508202 d:\prog-1-lab-1-recurs-master\tp_3\validar.h
 
-1508795694 source:d:\prog-1-lab-1-recurs-master\tp_3\pelicula.c
+1508796564 source:d:\prog-1-lab-1-recurs-master\tp_3\pelicula.c
 	<stdio.h>
 	<stdlib.h>
 	"pelicula.h"
 	<string.h>
 	"validar.h"
 
-1508508202 source:d:\prog-1-lab-1-recurs-master\tp_3\validar.c
+1508796588 source:d:\prog-1-lab-1-recurs-master\tp_3\validar.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

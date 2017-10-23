@@ -283,11 +283,11 @@ int peli_bajarPelicula(EPelicula* arrayPeliculas,int longitud)
     return retorno;
 }
 
-/** \brief
+/** \brief peli_escribeArchivo escribe la informacion del array dentro de un archivo binario
  *
- * \param
- * \param
- * \return
+ * \param arrayPeliculas el array que contiene la informacion
+ * \param longitudPeliculas lo que mide el array
+ * \return -1 si hubo algun error, 0 si no
  *
  */
 
@@ -313,11 +313,11 @@ int peli_escribeArchivo(EPelicula* arrayPeliculas, int longitudPeliculas)
     return retorno;
 }
 
-/** \brief
+/** \brief peli_generaPaginaWeb genera el archivo de tipo html
  *
- * \param
- * \param
- * \return
+ * \param arrayPeliculas el array que contiene la informacion
+ * \param longitudPeliculas lo que mide el array
+ * \return -1 si algo salio mal, 0 si no
  *
  */
 
@@ -384,11 +384,10 @@ int peli_generaPaginaWeb(EPelicula* arrayPeliculas, int longitudPeliculas)
     return retorno;
 }
 
-/** \brief
+/** \brief peli_archivoHTMLarriba genera el archivo que contiene la parte estatica superior del archivo html
  *
- * \param
- * \param
- * \return
+ * \param nombreArchivo el nombre que va a tener el archivo a crear
+ * \return -1 si algo salio mal, 0 si no
  *
  */
 
@@ -419,11 +418,10 @@ int peli_archivoHTMLarriba(char* nombreArchivo)
 
 }
 
-/** \brief
+/** \brief peli_archivoHTMLabajo genera el archivo que contiene la parte estatica inferior del archivo html
  *
- * \param
- * \param
- * \return
+ * \param nombreArchivo el nombre que va a tener el archivo a crear
+ * \return -1 si algo salio mal, 0 si no
  *
  */
 
@@ -453,11 +451,11 @@ int peli_archivoHTMLabajo(char* nombreArchivo)
     return retorno;
 }
 
-/** \brief
+/** \brief peli_cargaPeliculaDesdeArchivo desde el archivo lee la informacion de tipo EPelicula y la carga en el array
  *
- * \param
- * \param
- * \return
+ * \param arrayPeliculas array en el que se cargara la informacion
+ * \param longitudPeliculas la longitud del array
+ * \return -1 si algo salio mal, el numero de la cantidad de elementos que pudo leer
  *
  */
 
